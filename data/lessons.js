@@ -1,25 +1,25 @@
 export default [{
     title: "vue",
-    status: true
+    isDelete: true
   },
   {
     title: "php",
-    status: false
+    isDelete: false
   },
   {
     title: "js",
-    status: true
+    isDelete: true
   },
   {
     title: "css",
-    status: true
+    isDelete: true
   },
   {
     title: "jsx",
-    status: false
+    isDelete: false
   },
   {
     title: "java",
-    status: true
+    isDelete: true
   },
 ]
