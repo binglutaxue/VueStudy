@@ -1,14 +1,14 @@
 <template>
 <ClassComponent/>
 <!-- <class-component/> -->
-<ClassList/>
+<ClassListComponent/>
 </template>
 
 <script>
 import ClassComponent from './components/ClassComponent.vue'
-import ClassList from "./components/ClassList.vue"
+import ClassListComponent from "./components/ClassList.Component.vue"
   export default {
-    components: { ClassComponent ,ClassList},
+    components: { ClassComponent ,ClassListComponent},
     
   }
 </script>
