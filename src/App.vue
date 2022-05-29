@@ -1,14 +1,16 @@
 <template>
 <!-- <ClassComponent/> -->
 <!-- <class-component/> -->
-<ClassListComponent/>
+<!-- <ClassListComponent/> -->
+<if-comment></if-comment>
 </template>
 
 <script>
 import ClassComponent from './components/ClassComponent.vue'
 import ClassListComponent from "./components/ClassListComponent.vue"
+import IfComment from './components/IfComment.vue'
   export default {
-    components: { ClassComponent ,ClassListComponent},
+    components: { ClassComponent ,ClassListComponent, IfComment},
     
   }
 </script>

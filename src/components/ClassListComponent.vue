@@ -16,7 +16,7 @@ import lessons from '../../data/lessons'
       return {
         lessons
       }
-    }
+    } 
   }
 </script>
 
