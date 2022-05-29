@@ -7,7 +7,7 @@
     {{lesson.title}}
    </div>
    <div v-else>{{lesson.title}}</div>
-   <div v-show="iesson.isDelete">{{ lesson.title}}</div> 
+   <div v-show="lesson.isDelete">{{ lesson.title}}</div> 
    <!-- v-if 不会生成div v-show会生成div只是隐藏 -->
   </div>
 </template>
