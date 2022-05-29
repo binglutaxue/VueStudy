@@ -10,8 +10,8 @@
              <!-- v-for 循环对象 -->
              <div v-for="(value,key,index) in obj"  :key="index">
               {{ key }}----{{ value }}
-
              </div>
+             <!-- v-for 和 v-if 不能在同一个容器中使用 -->
   </div>
 </template>
 
